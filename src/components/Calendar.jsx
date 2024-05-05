@@ -1,3 +1,6 @@
+import React from 'react';
+import Event from './Event';
+
 const Calendar = () => {
 
     return (
@@ -18,9 +21,13 @@ const Calendar = () => {
 
                 <tr>
                     <td className="time">8 am</td>
+                    <td>
+                        <Event color='#8b008b' name='Morning Run! 🏃‍♀️' location='Across Campus'/>
+                    </td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#000066' name='Systems and Networks 💻' location='Undergraduate Commons'/>
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -30,12 +37,19 @@ const Calendar = () => {
                 <tr>
                     <td className="time">9 am</td>
                     <td></td>
+                    <td>
+                        <Event color='#660000' name='Artificial Intelligence 🤖' location='College of Business '/>
+                    </td>
+                    
+                    <td></td>
+                    <td>
+                        <Event color='#660000' name='Artificial Intelligence 🤖' location='College of Business '/>
+                    </td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#331a00' name='Breakfast with Friends 🍳' location='Archie`s Apartment'/>
+                    </td>
                 </tr>
 
                 <tr>
@@ -53,7 +67,9 @@ const Calendar = () => {
                     <td className="time">11 am</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#330033' name='Teaching Assistant Meeting 🧑‍🏫' location='College of Computing'/>
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -64,9 +80,13 @@ const Calendar = () => {
                     <td className="time">12 pm</td>
                     <td></td>
                     <td></td>
+                    <td>
+                        <Event color='#003300' name='Well-Being Seminar 🧘' location='Recreation Center'/>
+                    </td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#003300' name='Well-Being Seminar 🧘' location='Recreation Center'/>
+                    </td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -78,7 +98,9 @@ const Calendar = () => {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#333333' name='Research Meeting 📘' location='College of Design'/>
+                    </td>
                     <td></td>
                 </tr>
 
@@ -86,7 +108,9 @@ const Calendar = () => {
                     <td className="time">2 pm</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#b8860b' name='Study Session 📖' location='Library'/>
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -96,10 +120,17 @@ const Calendar = () => {
                 <tr>
                     <td className="time">3 pm</td>
                     <td></td>
+                    <td>
+                        <Event color='#004040' name='Comic and Graphic Arts 🎨' location='Media Building'/>
+                    </td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#004040' name='Comic and Graphic Arts 🎨' location='Media Building'/>
+                    </td>
+                    
+                    <td>
+                        <Event color='#663300' name='Project Meeting 📚' location='Engineering Building'/>
+                    </td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -112,7 +143,9 @@ const Calendar = () => {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#008080' name='Grocery Run! 🛒' location='Publix'/>
+                    </td>
                 </tr>
 
                 <tr>
@@ -120,67 +153,13 @@ const Calendar = () => {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td className="time">6 pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <Event color='#000066' name='Lab: Systems and Networks 💻' location='College of Computing'/>
+                    </td>
                     <td></td>
                     <td></td>
                     <td></td>
                 </tr>
-
-                <tr>
-                    <td className="time">7 pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td className="time">8 pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td className="time">9 pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
-                <tr>
-                    <td className="time">10 pm</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-
             </table>
         </div>
     )
